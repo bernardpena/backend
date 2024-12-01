@@ -6,10 +6,11 @@
     "jsonwebtoken": "^9.0.2",
     "pg": "^8.13.1",
     "scripts": {
-        "dev": "vite",
-        "build": "vite build",
-        "lint": "eslint .",
-        "preview": "vite preview"
+    "start": "node index.js",               
+    "dev": "nodemon index.js",               
+    "build": "echo 'No build step required'", 
+    "lint": "eslint .",                     
+    "test": "jest"                         
     },
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^6.6.0",
